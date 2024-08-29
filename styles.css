@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,60 +8,156 @@ body {
     color: #333;
 }
 
+/* Header Styles */
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
 section {
-    padding: 20px;
+    padding: 40px 20px;
     margin: 20px 0;
     background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     margin-top: 0;
+    color: #444;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+    font-size: 2em;
 }
 
-.project {
+/* About Section */
+#about p {
+    font-size: 1.1em;
+}
+
+/* Project Section */
+.project1, .project2, .project3 {
     margin-bottom: 20px;
 }
 
-.project a {
+.project1 h3, .project2 h3, .project3 h3 {
+    font-size: 1.5em;
     color: #333;
-    text-decoration: none;
-    font-weight: bold;
 }
 
-.project a:hover {
-    text-decoration: underline;
+.project1 p, .project2 p, .project3 p {
+    font-size: 1.1em;
+    color: #666;
 }
 
+/* Technical Skills Section */
+.skill1, .skill2, .skill3, .skill4 {
+    margin-bottom: 20px;
+}
+
+.skill1 h3, .skill2 h3, .skill3 h3, .skill4 h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.skill1 p, .skill2 p, .skill3 p, .skill4 p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Education Section */
+.school1 h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.school1 p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Research and Publications Section */
+.paper1 h3 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+/* Certifications Section */
+.cert1, .cert2, .cert3 {
+    margin-bottom: 20px;
+}
+
+.cert1 h3, .cert2 h3, .cert3 h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.cert1 p, .cert2 p, .cert3 p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Key Strengths Section */
+.strength1, .strength2, .strength3, .strength4, .strength5 {
+    margin-bottom: 20px;
+}
+
+.strength1 h3, .strength2 h3, .strength3 h3, .strength4 h3, .strength5 h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.strength1 p, .strength2 p, .strength3 p, .strength4 p, .strength5 p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 10px 0;
     background-color: #333;
     color: #fff;
     margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
 }
